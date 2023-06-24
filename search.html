@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles2.css">
+  <title>Recruitment Solution App - Candidate Search</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+
+    <h1>Candidate Search</h1>
+  </header>
+
+  <!-- Search Form -->
+  <section class="search-section">
+    <h2>Find Candidates</h2>
+    <form>
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" placeholder="Enter location">
+
+      <label for="job-role">Job Role:</label>
+      <input type="text" id="job-role" name="job-role" placeholder="Enter job role">
+
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <!-- Candidate Listing Section -->
+  <section class="candidate-listing-section">
+    <h2>Candidate List</h2>
+    <div class="candidate-list">
+      <!-- List of fetched candidates will be dynamically added here -->
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
